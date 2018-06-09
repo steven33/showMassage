@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6143628720CBE053001A7F8C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143628620CBE053001A7F8C /* AppDelegate.m */; };
+		6143628A20CBE053001A7F8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143628920CBE053001A7F8C /* ViewController.m */; };
+		6143628D20CBE053001A7F8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6143628B20CBE053001A7F8C /* Main.storyboard */; };
+		6143628F20CBE054001A7F8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6143628E20CBE054001A7F8C /* Assets.xcassets */; };
+		6143629220CBE054001A7F8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6143629020CBE054001A7F8C /* LaunchScreen.storyboard */; };
+		6143629520CBE054001A7F8C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143629420CBE054001A7F8C /* main.m */; };
+		6143629F20CBE054001A7F8C /* StevenShowMassageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143629E20CBE054001A7F8C /* StevenShowMassageTests.m */; };
+		614362AA20CBE054001A7F8C /* StevenShowMassageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614362A920CBE054001A7F8C /* StevenShowMassageUITests.m */; };
+		614362B920CBE0CD001A7F8C /* STMassgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 614362B820CBE0CD001A7F8C /* STMassgeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6143629B20CBE054001A7F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6143627A20CBE053001A7F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6143628120CBE053001A7F8C;
+			remoteInfo = StevenShowMassage;
+		};
+		614362A620CBE054001A7F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6143627A20CBE053001A7F8C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6143628120CBE053001A7F8C;
+			remoteInfo = StevenShowMassage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6143628220CBE053001A7F8C /* StevenShowMassage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StevenShowMassage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6143628520CBE053001A7F8C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6143628620CBE053001A7F8C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6143628820CBE053001A7F8C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6143628920CBE053001A7F8C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6143628C20CBE053001A7F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6143628E20CBE054001A7F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6143629120CBE054001A7F8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6143629320CBE054001A7F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6143629420CBE054001A7F8C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6143629A20CBE054001A7F8C /* StevenShowMassageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StevenShowMassageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6143629E20CBE054001A7F8C /* StevenShowMassageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StevenShowMassageTests.m; sourceTree = "<group>"; };
+		614362A020CBE054001A7F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614362A520CBE054001A7F8C /* StevenShowMassageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StevenShowMassageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		614362A920CBE054001A7F8C /* StevenShowMassageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StevenShowMassageUITests.m; sourceTree = "<group>"; };
+		614362AB20CBE054001A7F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		614362B720CBE0CC001A7F8C /* STMassgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMassgeManager.h; sourceTree = "<group>"; };
+		614362B820CBE0CD001A7F8C /* STMassgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMassgeManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6143627F20CBE053001A7F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6143629720CBE054001A7F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614362A220CBE054001A7F8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6143627920CBE053001A7F8C = {
+			isa = PBXGroup;
+			children = (
+				6143628420CBE053001A7F8C /* StevenShowMassage */,
+				6143629D20CBE054001A7F8C /* StevenShowMassageTests */,
+				614362A820CBE054001A7F8C /* StevenShowMassageUITests */,
+				6143628320CBE053001A7F8C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6143628320CBE053001A7F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6143628220CBE053001A7F8C /* StevenShowMassage.app */,
+				6143629A20CBE054001A7F8C /* StevenShowMassageTests.xctest */,
+				614362A520CBE054001A7F8C /* StevenShowMassageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6143628420CBE053001A7F8C /* StevenShowMassage */ = {
+			isa = PBXGroup;
+			children = (
+				6143628520CBE053001A7F8C /* AppDelegate.h */,
+				6143628620CBE053001A7F8C /* AppDelegate.m */,
+				6143628820CBE053001A7F8C /* ViewController.h */,
+				6143628920CBE053001A7F8C /* ViewController.m */,
+				614362B720CBE0CC001A7F8C /* STMassgeManager.h */,
+				614362B820CBE0CD001A7F8C /* STMassgeManager.m */,
+				6143628B20CBE053001A7F8C /* Main.storyboard */,
+				6143628E20CBE054001A7F8C /* Assets.xcassets */,
+				6143629020CBE054001A7F8C /* LaunchScreen.storyboard */,
+				6143629320CBE054001A7F8C /* Info.plist */,
+				6143629420CBE054001A7F8C /* main.m */,
+			);
+			path = StevenShowMassage;
+			sourceTree = "<group>";
+		};
+		6143629D20CBE054001A7F8C /* StevenShowMassageTests */ = {
+			isa = PBXGroup;
+			children = (
+				6143629E20CBE054001A7F8C /* StevenShowMassageTests.m */,
+				614362A020CBE054001A7F8C /* Info.plist */,
+			);
+			path = StevenShowMassageTests;
+			sourceTree = "<group>";
+		};
+		614362A820CBE054001A7F8C /* StevenShowMassageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				614362A920CBE054001A7F8C /* StevenShowMassageUITests.m */,
+				614362AB20CBE054001A7F8C /* Info.plist */,
+			);
+			path = StevenShowMassageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6143628120CBE053001A7F8C /* StevenShowMassage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614362AE20CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassage" */;
+			buildPhases = (
+				6143627E20CBE053001A7F8C /* Sources */,
+				6143627F20CBE053001A7F8C /* Frameworks */,
+				6143628020CBE053001A7F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StevenShowMassage;
+			productName = StevenShowMassage;
+			productReference = 6143628220CBE053001A7F8C /* StevenShowMassage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6143629920CBE054001A7F8C /* StevenShowMassageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614362B120CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassageTests" */;
+			buildPhases = (
+				6143629620CBE054001A7F8C /* Sources */,
+				6143629720CBE054001A7F8C /* Frameworks */,
+				6143629820CBE054001A7F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6143629C20CBE054001A7F8C /* PBXTargetDependency */,
+			);
+			name = StevenShowMassageTests;
+			productName = StevenShowMassageTests;
+			productReference = 6143629A20CBE054001A7F8C /* StevenShowMassageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		614362A420CBE054001A7F8C /* StevenShowMassageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 614362B420CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassageUITests" */;
+			buildPhases = (
+				614362A120CBE054001A7F8C /* Sources */,
+				614362A220CBE054001A7F8C /* Frameworks */,
+				614362A320CBE054001A7F8C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				614362A720CBE054001A7F8C /* PBXTargetDependency */,
+			);
+			name = StevenShowMassageUITests;
+			productName = StevenShowMassageUITests;
+			productReference = 614362A520CBE054001A7F8C /* StevenShowMassageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6143627A20CBE053001A7F8C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "李方建";
+				TargetAttributes = {
+					6143628120CBE053001A7F8C = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					6143629920CBE054001A7F8C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6143628120CBE053001A7F8C;
+					};
+					614362A420CBE054001A7F8C = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 6143628120CBE053001A7F8C;
+					};
+				};
+			};
+			buildConfigurationList = 6143627D20CBE053001A7F8C /* Build configuration list for PBXProject "StevenShowMassage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6143627920CBE053001A7F8C;
+			productRefGroup = 6143628320CBE053001A7F8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6143628120CBE053001A7F8C /* StevenShowMassage */,
+				6143629920CBE054001A7F8C /* StevenShowMassageTests */,
+				614362A420CBE054001A7F8C /* StevenShowMassageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6143628020CBE053001A7F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143629220CBE054001A7F8C /* LaunchScreen.storyboard in Resources */,
+				6143628F20CBE054001A7F8C /* Assets.xcassets in Resources */,
+				6143628D20CBE053001A7F8C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6143629820CBE054001A7F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614362A320CBE054001A7F8C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6143627E20CBE053001A7F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143628A20CBE053001A7F8C /* ViewController.m in Sources */,
+				6143629520CBE054001A7F8C /* main.m in Sources */,
+				614362B920CBE0CD001A7F8C /* STMassgeManager.m in Sources */,
+				6143628720CBE053001A7F8C /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6143629620CBE054001A7F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6143629F20CBE054001A7F8C /* StevenShowMassageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614362A120CBE054001A7F8C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				614362AA20CBE054001A7F8C /* StevenShowMassageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6143629C20CBE054001A7F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6143628120CBE053001A7F8C /* StevenShowMassage */;
+			targetProxy = 6143629B20CBE054001A7F8C /* PBXContainerItemProxy */;
+		};
+		614362A720CBE054001A7F8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6143628120CBE053001A7F8C /* StevenShowMassage */;
+			targetProxy = 614362A620CBE054001A7F8C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6143628B20CBE053001A7F8C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6143628C20CBE053001A7F8C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6143629020CBE054001A7F8C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6143629120CBE054001A7F8C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		614362AC20CBE054001A7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		614362AD20CBE054001A7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		614362AF20CBE054001A7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		614362B020CBE054001A7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		614362B220CBE054001A7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StevenShowMassage.app/StevenShowMassage";
+			};
+			name = Debug;
+		};
+		614362B320CBE054001A7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StevenShowMassage.app/StevenShowMassage";
+			};
+			name = Release;
+		};
+		614362B520CBE054001A7F8C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StevenShowMassage;
+			};
+			name = Debug;
+		};
+		614362B620CBE054001A7F8C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 958QKCHZMZ;
+				INFOPLIST_FILE = StevenShowMassageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "---.StevenShowMassageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = StevenShowMassage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6143627D20CBE053001A7F8C /* Build configuration list for PBXProject "StevenShowMassage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614362AC20CBE054001A7F8C /* Debug */,
+				614362AD20CBE054001A7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614362AE20CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614362AF20CBE054001A7F8C /* Debug */,
+				614362B020CBE054001A7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614362B120CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614362B220CBE054001A7F8C /* Debug */,
+				614362B320CBE054001A7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		614362B420CBE054001A7F8C /* Build configuration list for PBXNativeTarget "StevenShowMassageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				614362B520CBE054001A7F8C /* Debug */,
+				614362B620CBE054001A7F8C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6143627A20CBE053001A7F8C /* Project object */;
+}
