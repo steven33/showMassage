@@ -10,9 +10,9 @@
 @interface STMassgeManager ()
 @property (nonatomic, strong) UIWindow *showWindow;
 @property (nonatomic, strong) UIView *topBar;
-@property (nonatomic ,strong) UILabel *massageLabel;
-@property (nonatomic,strong)NSMutableArray *massages;
-@property (nonatomic,assign)BOOL isShow;
+@property (nonatomic, strong) UILabel *massageLabel;
+@property (nonatomic, strong) NSMutableArray *massages;
+@property (nonatomic, assign) BOOL isShow;
 
 @end
 @implementation STMassgeManager
