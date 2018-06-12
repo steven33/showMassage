@@ -16,6 +16,7 @@
 		6143629F20CBE054001A7F8C /* StevenShowMassageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6143629E20CBE054001A7F8C /* StevenShowMassageTests.m */; };
 		614362AA20CBE054001A7F8C /* StevenShowMassageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 614362A920CBE054001A7F8C /* StevenShowMassageUITests.m */; };
 		614362B920CBE0CD001A7F8C /* STMassgeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 614362B820CBE0CD001A7F8C /* STMassgeManager.m */; };
+		61B38C6F20CF8EDC00BED3C1 /* hahah.m in Sources */ = {isa = PBXBuildFile; fileRef = 61B38C6E20CF8EDC00BED3C1 /* hahah.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		614362AB20CBE054001A7F8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		614362B720CBE0CC001A7F8C /* STMassgeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STMassgeManager.h; sourceTree = "<group>"; };
 		614362B820CBE0CD001A7F8C /* STMassgeManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMassgeManager.m; sourceTree = "<group>"; };
+		61B38C6D20CF8EDC00BED3C1 /* hahah.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hahah.h; sourceTree = "<group>"; };
+		61B38C6E20CF8EDC00BED3C1 /* hahah.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hahah.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				6143628920CBE053001A7F8C /* ViewController.m */,
 				614362B720CBE0CC001A7F8C /* STMassgeManager.h */,
 				614362B820CBE0CD001A7F8C /* STMassgeManager.m */,
+				61B38C6D20CF8EDC00BED3C1 /* hahah.h */,
+				61B38C6E20CF8EDC00BED3C1 /* hahah.m */,
 				6143628B20CBE053001A7F8C /* Main.storyboard */,
 				6143628E20CBE054001A7F8C /* Assets.xcassets */,
 				6143629020CBE054001A7F8C /* LaunchScreen.storyboard */,
@@ -270,6 +275,7 @@
 				6143628A20CBE053001A7F8C /* ViewController.m in Sources */,
 				6143629520CBE054001A7F8C /* main.m in Sources */,
 				614362B920CBE0CD001A7F8C /* STMassgeManager.m in Sources */,
+				61B38C6F20CF8EDC00BED3C1 /* hahah.m in Sources */,
 				6143628720CBE053001A7F8C /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
